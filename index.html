@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Lista Zakupów</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container { max-width: 400px; }
+    </style>
+    <script>
+        // Automatyczne przekierowanie do Google Play Store do Twojej apki
+        // UWAGA: Upewnij się, że pakiet com.example.listazakopow jest poprawny w momencie publikacji!
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.replace("https://play.google.com/store/apps/details?id=com.example.listazakopow");
+            }, 1000); // 1 sekunda opóźnienia, by strona zdążyła się załadować wizualnie
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Pobierz aplikację! 🛒</h2>
+        <p>Przekierowujemy Cię do sklepu Google Play, abyś mógł odczytać udostępnioną listę zakupów...</p>
+        <p><small>Jeśli nic się nie dzieje, <a href="https://play.google.com/store/apps/details?id=com.example.listazakopow">kliknij tutaj</a>.</small></p>
+    </div>
+</body>
+</html>

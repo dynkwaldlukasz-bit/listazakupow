@@ -1,1 +1,9 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "lukasz.dynkwald.listazakopow",
+    "sha256_cert_fingerprints":
+    ["8B:B5:2D:47:CE:F1:66:B3:FF:0A:A2:20:E0:0F:26:EC:C8:41:FB:50:32:B1:B7:FD:0F:B4:A9:A7:5D:98:53:56"]
+  }
+}]
